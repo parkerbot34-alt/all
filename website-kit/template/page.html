@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${title} | ${business_name}</title>
+  <meta name="robots" content="${robots}">
+  <link rel="icon" href="${favicon}">
+  <link rel="stylesheet" href="styles.css">
+  <style>:root { --brand: ${brand_color}; --brand-dark: ${brand_dark}; --accent: ${accent_color}; }</style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./">${logo_html}<span>${business_name}</span></a>
+      <a class="btn btn-primary header-call" href="tel:${phone_tel}">Call ${phone_display}</a>
+    </div>
+  </header>
+  <main class="page">
+    <div class="container">
+${body}
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container"><p>&copy; ${year} ${legal_name}. <a href="./">Back to home</a></p></div>
+  </footer>
+</body>
+</html>

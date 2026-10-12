@@ -1,0 +1,56 @@
+{
+  "_note": "EXAMPLE ONLY. Every fact, review and rating below is placeholder text. Replace all of it with information the owner confirms before launch.",
+  "slug": "example-landscaping",
+  "business_name": "Example Landscaping Co.",
+  "legal_name": "Example Landscaping Co. LLC",
+  "site_url": "https://example-landscaping.pages.dev",
+  "primary_service": "Landscaping",
+  "schema_type": "LandscapingBusiness",
+  "phone": "(801) 555-0123",
+  "email": "hello@example.com",
+  "city": "Orem",
+  "state": "UT",
+  "address": { "street": "123 Example St", "city": "Orem", "state": "UT", "zip": "84057", "show": false },
+  "hours_display": "Mon–Sat, 7am–6pm",
+  "hours_schema": ["Mo-Sa 07:00-18:00"],
+  "brand_color": "#2f6b3a",
+  "accent_color": "#f2b33d",
+  "logo": "img/logo.svg",
+  "headline": "Landscaping and yard care in Utah County",
+  "subheadline": "Sprinkler repair, sod, cleanups and weekly mowing. Free quotes, fast replies.",
+  "trust_points": ["Licensed and insured (EXAMPLE)", "Family owned (EXAMPLE)", "Free estimates"],
+  "services_intro": "Everything your yard needs, from spring cleanup to fall aeration.",
+  "services": [
+    { "name": "Sprinkler repair", "description": "Broken heads, leaks and timer setup, usually fixed the same week." },
+    { "name": "Sod installation", "description": "Grading, soil prep and fresh sod for new or tired lawns." },
+    { "name": "Weekly mowing", "description": "Mow, edge and blow on a set schedule all season." },
+    { "name": "Yard cleanups", "description": "Spring and fall cleanups, leaf removal and haul-away." },
+    { "name": "Aeration", "description": "Core aeration to help lawns handle Utah's dry summers." },
+    { "name": "Landscape design", "description": "Rock, mulch, planters and water-wise designs." }
+  ],
+  "why_us": [
+    { "title": "Fast replies", "text": "EXAMPLE: Quote requests answered within one business day." },
+    { "title": "Clear pricing", "text": "EXAMPLE: Written quotes before any work starts." },
+    { "title": "Local crew", "text": "EXAMPLE: Based in Orem and working across Utah County." }
+  ],
+  "rating": { "value": null, "count": null, "source": "Google" },
+  "reviews": [
+    { "author": "EXAMPLE reviewer", "stars": 5, "text": "PLACEHOLDER. Paste a real Google review here, with the customer's permission." },
+    { "author": "EXAMPLE reviewer", "stars": 5, "text": "PLACEHOLDER. Never write or edit reviews yourself." },
+    { "author": "EXAMPLE reviewer", "stars": 5, "text": "PLACEHOLDER. Use first name and last initial only." }
+  ],
+  "service_areas": ["Orem", "Provo", "Lindon", "Vineyard", "Pleasant Grove", "American Fork", "Springville", "Lehi"],
+  "gallery": [
+    { "src": "img/work-1.svg", "alt": "Placeholder for a photo of a finished lawn" },
+    { "src": "img/work-2.svg", "alt": "Placeholder for a photo of a sprinkler repair" },
+    { "src": "img/work-3.svg", "alt": "Placeholder for a photo of a backyard design" }
+  ],
+  "faqs": [
+    { "q": "Do you offer free estimates?", "a": "EXAMPLE: Yes. Send the form or call and we'll set up a time." },
+    { "q": "What areas do you serve?", "a": "EXAMPLE: Most of Utah County. See the list above." }
+  ],
+  "response_time": "within one business day",
+  "license_text": "",
+  "social": [],
+  "web3forms_key": "REPLACE-WITH-CLIENT-WEB3FORMS-KEY"
+}
