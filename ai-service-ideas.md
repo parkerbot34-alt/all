@@ -342,6 +342,100 @@ Scores are my judgment calls, informed by the sources below. The pricing anchors
 
 ---
 
+## Round 2: 10 new ideas (no overlap with the first 30)
+
+None of these repeat a buyer *and* deliverable from round 1: no bids, grants, lead lists, insurance packets, legal drafting, bookkeeping, or marketing. Same scoring as before (Risk 5 = lowest risk, max 30). Prices marked **(est.)** are my estimates.
+
+| Rank | Idea | Pay | AI | Speed | Fit | Scale | Risk | **Total** |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Agenda Watch: local government meeting alerts | 3 | 5 | 4 | 5 | 5 | 5 | **27** |
+| 2 | PDF accessibility remediation for public entities | 4 | 4 | 3 | 4 | 4 | 4 | **23** |
+| 3 | Minutes-as-a-service for special districts and HOAs | 2 | 5 | 4 | 3 | 5 | 4 | **23** |
+| 4 | Utility and telecom bill recovery audits | 4 | 4 | 3 | 3 | 4 | 4 | **22** |
+| 5 | Preliminary-notice desk for subcontractors | 3 | 4 | 4 | 3 | 4 | 3 | **21** |
+| 6 | GRAMA/FOIA records-request desk | 2 | 3 | 4 | 5 | 3 | 4 | **21** |
+| 7 | Property tax appeal packets | 4 | 4 | 1 | 4 | 4 | 3 | **20** |
+| 8 | Acquisition diligence packets for small-business buyers | 4 | 3 | 3 | 4 | 3 | 3 | **20** |
+| 9 | Settlement claims recovery for businesses | 4 | 4 | 2 | 4 | 4 | 1 | **19** |
+| 10 | DOT driver-file compliance for small trucking fleets | 3 | 3 | 3 | 3 | 4 | 2 | **18** |
+
+### 1. Agenda Watch: local government meeting alerts (27)
+- **Deliverable:** Every week, a short alert email when any Utah city council, county commission or planning commission agenda, minutes, or meeting recording mentions the client's topics: a rezoning near their land, a moratorium, a fee change, a competitor's project, or a vote on their application. Each alert includes a 3-line summary, a timestamped quote, and the link.
+- **Who pays:** Real estate developers, land-use attorneys, commercial brokers, homebuilders, solar and cell-tower siting firms, and trade associations. **$300–$1,000/mo per client (est.)**, priced by number of jurisdictions.
+- **Why AI fits:** Utah has hundreds of public bodies posting agendas (Utah's Public Notice Website centralizes many of them) and recordings that no human reads. Speech-to-text plus an LLM can read all of them each week. One pipeline serves every client.
+- **Skeptic's note:** National startups already sell meeting-monitoring software. Your angle is a done-for-you analyst *service* with deep Utah small-town coverage. Before building, check how well existing tools cover Utah towns under 20k people.
+- **License risk:** None. All of it is public information.
+
+### 2. PDF accessibility remediation for public entities (23)
+- **Deliverable:** You take a city's, school district's or special district's PDFs (agendas, budgets, forms) and return WCAG 2.1 AA–tagged versions, plus a monthly plan for new documents.
+- **Who pays:** Utah cities, counties, school districts, special districts. Market rate is about **$5–$8/page**, with a $1–$11.50 range ([Equalify price compilation](https://equalify.uic.edu/EqualifyEverything/equalify-docs/blob/main/reflow/sources.md), [Skynet Technologies](https://www.skynettechnologies.com/blog/pdf-accessibility-cost-factors)). A monthly retainer could be $500–$2,000 (est.).
+- **Why now:** DOJ's ADA Title II rule requires WCAG 2.1 AA. The deadline was pushed to **April 26, 2027 for entities with 50k+ population** and **April 26, 2028 for smaller ones and special districts**, and there's a pending lawsuit over the delay ([Reed Smith](https://www.reedsmith.com/articles/doj-extends-digital-accessibility-compliance-dates-under-title-ii-of-the-ada/), [Accessible.org](https://accessible.org/news/doj-extends-ada-title-ii-web-compliance-deadline/)).
+- **Skeptic's note:** Automation is pushing prices toward cents per page (Ohio State reported an automated approach far cheaper than manual; [ASU](https://smartchallenges.asu.edu/challenges/pdf-accessibility-ohio-state-university)). You win only on *done-for-you plus human-verified* quality. Automated checkers miss reading order and alt-text quality, so a human must check every document.
+- **License risk:** None. The quality risk is that the client's compliance depends on your work, so put a clear scope in the contract.
+
+### 3. Minutes-as-a-service for special districts and HOAs (23)
+- **Deliverable:** They upload or send the meeting recording; you return draft minutes in their format within 48 hours.
+- **Who pays:** Utah special service districts (water, sewer, fire, cemetery), small towns, HOA management companies. **$150–$400 per meeting (est.)**, monthly recurring.
+- **Synergy:** This is the same transcript pipeline as Agenda Watch. The public body pays you to write its minutes, and those same meetings feed the alerts you sell to developers. Keep the two clearly separate so there's no conflict of interest: only use what is public once it's posted.
+- **Skeptic's note:** Low price per unit, and some clerks will just use built-in AI meeting notes. Sell to bodies with no staff clerk.
+- **License risk:** Low. Utah open-meetings law sets requirements for minutes, so the body's clerk must approve them; you deliver drafts only.
+
+### 4. Utility and telecom bill recovery audits (22)
+- **Deliverable:** You collect 24 months of a business's utility, telecom and waste bills; AI extracts every line item and flags wrong rate schedules, taxes, unused lines and duplicate charges. You file the refund requests with the provider.
+- **Who pays:** Multi-location businesses: restaurant groups, churches, schools, property managers. **Contingency of 20–50% of recovered refunds and savings** is the industry norm ([Lightyear](https://lightyear.ai/blogs/telecom-expense-management-consultants)). One city contract paid 45% of refunds and 2 years of savings ([Urbana, IL ordinance](https://www.city.urbana.il.us/_Agendas_-_Packets_-_Minutes/Agendas_2006/06-05-2006/Ordinance_2006-05-062.pdf)).
+- **Why AI fits:** Bill parsing and tariff comparison are exactly what LLMs do well.
+- **Skeptic's note:** Cash is **slow**: you get paid only after refunds land, often months later. It's an old industry, so the edge is that you can serve *small* accounts that legacy auditors skip.
+- **License risk:** Low. Some states regulate utility consultants; check Utah.
+
+### 5. Preliminary-notice desk for subcontractors (21)
+- **Deliverable:** Subcontractors and suppliers text you each new job. You file the Utah preliminary notice on the State Construction Registry within the deadline and track their lien and payment deadlines.
+- **Who pays:** Small Utah subcontractors and material suppliers. **Per-notice fee or a monthly plan; $25–$50/notice or $150–$400/mo (est.)**.
+- **Why it matters:** In Utah, the preliminary notice must be filed **within 20 days** of first furnishing labor or materials. Filing late loses lien rights for earlier work ([Levelset](https://www.levelset.com/blog/how-do-you-file-a-preliminary-notice-in-utah/), [Husch Blackwell](https://www.huschblackwell.com/utah-state-by-state-summary-of-construction-liens)). Confirm the deadlines in Utah Code 38-1a-501 and 502.
+- **Skeptic's note:** Software (Levelset and others) already does this nationally. Small subs who hate software are your market.
+- **License risk:** **Medium.** Filing preliminary notices is routinely done by non-lawyers, but drafting and recording *mechanic's liens* for others edges toward the practice of law. Stop at notices and deadline tracking, and refer liens to a partner attorney (your network).
+
+### 6. GRAMA/FOIA records-request desk (21)
+- **Deliverable:** A client tells you what they want ("all inspection reports on X," "emails about Y project"). You draft and file the request under Utah's GRAMA law or the federal FOIA, track it, follow up, appeal denials, and deliver a searchable, AI-summarized folder of the results.
+- **Who pays:** Law firms (pre-litigation fact-gathering), private investigators, journalists, developers, consultants. **$150–$400 per request plus $200–$500/mo for tracking bundles (est.)**.
+- **Fit:** Strong with your legal internship and government-data experience.
+- **Skeptic's note:** Anyone *can* file a request themselves for free, so you sell persistence, tracking, and the summary. Response times are slow, so turnaround isn't in your control.
+- **License risk:** Low for filing requests. Formal appeals to the State Records Committee or court go to the client's attorney.
+
+### 7. Property tax appeal packets (20)
+- **Deliverable:** For commercial and rental property owners, AI pulls comparable sales and assessed values, and you build the evidence packet for the county Board of Equalization appeal.
+- **Who pays:** Owners of rentals, small commercial buildings, and multifamily. **Contingency of a share of first-year tax savings, or a flat $250–$750 per parcel (est.)**. I found no Utah fee data.
+- **Timing problem:** The Utah appeal deadline is **September 15** (or 45 days after the county's notice, whichever is later) ([Utah Tax Commission decision](https://tax.utah.gov/commission/decision/24-2099.pdf), [Parsons Behle](https://parsonsbehle.com/insights/utah-property-tax-appeal-deadline-locally-assessed-commercial-industrial-multifamily-and-development-property)). The next window opens in summer 2027. **That's why Speed is 1:** it can't be your first business, but it's a good add-on next summer.
+- **Skeptic's note:** Utah appeals require evidence such as comparable sales, which can be hard to get in a non-disclosure state like Utah. Test that comps are obtainable before committing.
+- **License risk:** **Check** who may represent owners before the BOE and whether contingency fees are allowed. Entity owners need authorization paperwork.
+
+### 8. Acquisition diligence packets for small-business buyers (20)
+- **Deliverable:** For someone buying a $500k–$5M small business (often with an SBA loan), you assemble a diligence pack: business registration and litigation checks, liens and UCC filings, review and reputation analysis, customer concentration from the seller's data, and a list of questions to ask.
+- **Who pays:** Search-fund buyers, first-time acquirers, small business brokers. **$1,500–$4,000 per deal (est.)**.
+- **Fit:** Business finance plus pre-law, and ClearMod's entity, court and OSHA lookups reuse directly.
+- **Skeptic's note:** Not recurring per client; recurring only through brokers who refer deals. Don't call it a "Quality of Earnings" report; that's CPA work.
+- **License risk:** Medium. No legal opinions, no audited financials. The buyer's attorney and CPA sign off.
+
+### 9. Settlement claims recovery for businesses (19)
+- **Deliverable:** Scan new class-action settlements; find business clients who qualify; file their claims on contingency.
+- **Who pays:** Businesses. Contingency fees are common, but I found no standard percentage.
+- **Why it ranks low (blunt):** Courts are **hostile** to third-party filers. In the Visa/Mastercard interchange settlement, the court ordered filers to disclose that **merchants don't need to pay anyone** and that free help exists, and class counsel reports complaints about filers monthly ([court order](https://www.PaymentCardSettlement.com/Content/Documents/New%20Docs/Order%20Regarding%20Third-Party%20Claims%20Filing%20Services.pdf), [Digital Transactions](https://www.digitaltransactions.net/as-judge-mulls-settlement-a-thorny-issue-over-merchant-claims-roils-the-court/)). The reputation risk is high, and the work looks like taking a cut of free money. **Avoid** unless done with a law firm.
+
+### 10. DOT driver-file compliance for small trucking fleets (18)
+- **Deliverable:** You maintain each driver's qualification file (licenses, medical cards, annual reviews, MVR checks) and send renewal reminders before anything expires, so the fleet is audit-ready.
+- **Who pays:** Utah fleets with 3–30 trucks, landscaping and construction companies with CDL drivers. **$15–$40/driver/month (est.)**.
+- **Skeptic's note:** Established compliance companies sell this, and handling driver records means personal data. ClearMod's FMCSA lookup helps with monitoring.
+- **License risk:** Medium, from privacy and data handling. A missed renewal is a real fine for the client, so get clear contract terms.
+
+### Round 2 verdict
+- **Start with Agenda Watch (27).** It's the only round-2 idea that scores as high as round 1's Contract-Winner Lead Feed, and it's a different engine: public meetings, not procurement. It's pure public data, has no license risk, uses one pipeline for every client, and fits your government-data experience. Minutes-as-a-service (#3) is its natural second product.
+- **Cheapest test:** Pick 10 Utah County / Salt Lake County cities. Spend one weekend reading the last 30 days of planning commission agendas with AI and write 5 real "you should know about this" alerts. Send them to 30 Utah land-use attorneys and developers with a $150 pilot-month offer. **Kill signal:** fewer than 3 asks for price after 30 contacts plus follow-up calls.
+- **Calendar note:** PDF accessibility (#2) peaks before the April 2027 / April 2028 deadlines, and property tax appeals (#7) peak in August–September. Those are timed add-ons, not starters.
+
+### Round 2 sources
+[Reed Smith on the DOJ extension](https://www.reedsmith.com/articles/doj-extends-digital-accessibility-compliance-dates-under-title-ii-of-the-ada/) · [Accessible.org](https://accessible.org/news/doj-extends-ada-title-ii-web-compliance-deadline/) · [AAPD statement](https://www.aapd.com/aapd-statement-title-ii-doj-web-rule-ifr/) · [Equalify price compilation](https://equalify.uic.edu/EqualifyEverything/equalify-docs/blob/main/reflow/sources.md) · [Skynet Technologies](https://www.skynettechnologies.com/blog/pdf-accessibility-cost-factors) · [ASU / Ohio State](https://smartchallenges.asu.edu/challenges/pdf-accessibility-ohio-state-university) · [Levelset (Utah notice)](https://www.levelset.com/blog/how-do-you-file-a-preliminary-notice-in-utah/) · [Husch Blackwell](https://www.huschblackwell.com/utah-state-by-state-summary-of-construction-liens) · [Utah Tax Commission decision](https://tax.utah.gov/commission/decision/24-2099.pdf) · [Parsons Behle](https://parsonsbehle.com/insights/utah-property-tax-appeal-deadline-locally-assessed-commercial-industrial-multifamily-and-development-property) · [Lightyear](https://lightyear.ai/blogs/telecom-expense-management-consultants) · [Urbana, IL ordinance](https://www.city.urbana.il.us/_Agendas_-_Packets_-_Minutes/Agendas_2006/06-05-2006/Ordinance_2006-05-062.pdf) · [Interchange settlement court order](https://www.PaymentCardSettlement.com/Content/Documents/New%20Docs/Order%20Regarding%20Third-Party%20Claims%20Filing%20Services.pdf) · [Digital Transactions](https://www.digitaltransactions.net/as-judge-mulls-settlement-a-thorny-issue-over-merchant-claims-roils-the-court/)
+
+---
+
 ## Legal and license flags (all ideas)
 
 | Area | Flag | Rule of thumb |
